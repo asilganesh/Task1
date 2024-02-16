@@ -8,12 +8,9 @@ app.get("/", (req, res) => {
     
    
 
-        if(err){
-            res.json(err)
-        }
-        else{
+      
             res.json("Hello User")
-        }
+        
 
     })
 
